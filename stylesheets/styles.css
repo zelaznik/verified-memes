@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  font-size: 1em;
+}
+
+.ui-draggable, .ui-droppable {
+  background-position: top;
+}
+
+.candidate-loser {
+  filter: grayscale(100%);
+}
+
+#interactive_electoral_map {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+}
+
+#electoral_progress_bar {
+    height: 30px;
+    margin:  0px;
+}
+
+#electoral_progress_bar_clinton {
+    text-align:    left;
+    padding-left:  20px;
+}
+
+#electoral_progress_bar_trump {
+    text-align:    right;
+    padding-right: 20px;
+}
+
+#red, #green, #blue {
+    float: left;
+    clear: left;
+    margin: 15px;
+    width: 475px;
+}
+
+#swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+}
+
+#red .ui-slider-range {
+    background: #ef2929;
+}
+
+#red .ui-slider-handle {
+    border-color: #ef2929;
+}
+
+#green .ui-slider-range {
+    background: #8ae234;
+}
+
+#green .ui-slider-handle {
+    border-color: #8ae234;
+}
+
+#blue .ui-slider-range {
+    background: #729fcf;
+}
+
+#blue .ui-slider-handle {
+    border-color: #729fcf;
+}
+
+.progress-bar-extra {
+    opacity: 0.50;
+}
