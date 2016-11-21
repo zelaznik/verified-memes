@@ -14,6 +14,7 @@ def main(file_path):
 
   new_path = new_name(file_path, suffix)
   shutil.move(file_path, new_path)
+  print(new_path)
 
 if __name__ == '__main__':
   src_path = sys.argv[1]
